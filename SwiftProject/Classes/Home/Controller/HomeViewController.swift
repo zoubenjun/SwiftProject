@@ -21,6 +21,19 @@ class HomeViewController: UIViewController {
         return titleView
     }()
     
+    fileprivate lazy var pageContentView : PageContentView = { [weak self] in
+        let contentFrame = CGRect(x: 0, y: UIApplication.statusBarHeight + kNavBarH + kTitleViewH, width: kScreenW, height: kScreenH - UIApplication.statusBarHeight - kNavBarH - kTitleViewH - kTabBarH)
+        var childVcs = [UIViewController]()
+        childVcs.append(RecommendViewController())
+//        childVcs.append(HandsVC())
+//        childVcs.append(AmuseVC())
+//        childVcs.append(GameVC())
+//        childVcs.append(FunnyVC())
+        let contentView = PageContentView(frame: contentFrame, childVcs: childVcs, parentVc: self)
+        //MARK:- 控制器作为PageContentViewDelegate代理
+        contentView.delegate = self
+        return contentView
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +47,7 @@ internal extension HomeViewController {
         
         setupNavigationBar()
         view.addSubview(pageTitleView)
-
+        view.addSubview(pageContentView)
     }
     
     private func setupNavigationBar() {
@@ -50,6 +63,12 @@ internal extension HomeViewController {
 
 extension HomeViewController: PageTitleViewDelegate {
     func pageTitleView(_ titleView: PageTitleView, selectedIndex index: Int) {
-//        pageContentView.setCurrentIndex(currentIndex: index)
+        pageContentView.setCurrentIndex(currentIndex: index)
+    }
+}
+
+extension HomeViewController : PageContentViewDelegate{
+    func pageContentView(_ contentView: PageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
+        pageTitleView.setTitleWithProgress(progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
     }
 }

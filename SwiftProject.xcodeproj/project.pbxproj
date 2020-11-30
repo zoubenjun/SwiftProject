@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EB4F0A2410705B713E69103 /* Pods_SwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C722A652F7A4B316DF072C /* Pods_SwiftProject.framework */; };
 		BDDDA819256CF3A300D36C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDA818256CF3A300D36C2D /* AppDelegate.swift */; };
 		BDDDA81B256CF3A300D36C2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDA81A256CF3A300D36C2D /* SceneDelegate.swift */; };
 		BDDDA820256CF3A300D36C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDDA81E256CF3A300D36C2D /* Main.storyboard */; };
@@ -28,6 +29,33 @@
 		BDE37E2F2570F8520091457A /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E2E2570F8520091457A /* UIColor-Extension.swift */; };
 		BDE37E342570F8B20091457A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E332570F8B20091457A /* Common.swift */; };
 		BDE37E392570FDE50091457A /* UIApplicatipn-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E382570FDE50091457A /* UIApplicatipn-Extension.swift */; };
+		BDE37E702574C6450091457A /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E6F2574C6450091457A /* PageContentView.swift */; };
+		BDE37E752574CBD90091457A /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E742574CBD90091457A /* RecommendViewController.swift */; };
+		BDE37E7A2574CC2A0091457A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E792574CC2A0091457A /* BaseViewController.swift */; };
+		BDE37E7F2574CD7B0091457A /* BaseAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E7E2574CD7B0091457A /* BaseAnchorViewController.swift */; };
+		BDE37E842574CDC90091457A /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E832574CDC90091457A /* BaseModel.swift */; };
+		BDE37E892574CE8D0091457A /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E882574CE8D0091457A /* BaseViewModel.swift */; };
+		BDE37E8E2574CEC80091457A /* AnchorGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E8D2574CEC80091457A /* AnchorGroupModel.swift */; };
+		BDE37E932574CEE70091457A /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E922574CEE70091457A /* AnchorModel.swift */; };
+		BDE37E982574CF890091457A /* HttpTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37E972574CF890091457A /* HttpTools.swift */; };
+		BDE37EA32574D50A0091457A /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE37EA22574D50A0091457A /* CollectionNormalCell.xib */; };
+		BDE37EA82574D51E0091457A /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37EA72574D51E0091457A /* CollectionNormalCell.swift */; };
+		BDE37EAD2574D5460091457A /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37EAC2574D5460091457A /* BaseCollectionViewCell.swift */; };
+		BDE37EBA2574D6A20091457A /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37EB92574D6A20091457A /* CollectionPrettyCell.swift */; };
+		BDE37EBF2574D6AB0091457A /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE37EBE2574D6AB0091457A /* CollectionPrettyCell.xib */; };
+		BDE37ECA2574D9930091457A /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37EC92574D9930091457A /* RecommendViewModel.swift */; };
+		BDE37ECF2574D9D00091457A /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37ECE2574D9D00091457A /* CycleModel.swift */; };
+		BDE37ED42574DA800091457A /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37ED32574DA800091457A /* NSDate-Extension.swift */; };
+		BDE37ED92574DAEB0091457A /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37ED82574DAEB0091457A /* CollectionHeaderView.swift */; };
+		BDE37EDE2574DAF20091457A /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE37EDD2574DAF20091457A /* CollectionHeaderView.xib */; };
+		BDE37EE32574DB5F0091457A /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37EE22574DB5F0091457A /* RecommendCycleView.swift */; };
+		BDE37EE82574DB690091457A /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE37EE72574DB690091457A /* RecommendCycleView.xib */; };
+		BDE37EED2574DB850091457A /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE37EEC2574DB850091457A /* CollectionCycleCell.xib */; };
+		BDE37EF22574DB8C0091457A /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37EF12574DB8C0091457A /* CollectionCycleCell.swift */; };
+		BDE37EFA2574DCED0091457A /* CollectionGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37EF92574DCED0091457A /* CollectionGameCell.swift */; };
+		BDE37EFF2574DCF30091457A /* CollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE37EFE2574DCF30091457A /* CollectionGameCell.xib */; };
+		BDE37F042574DD250091457A /* RecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE37F032574DD250091457A /* RecommendGameView.swift */; };
+		BDE37F092574DD2B0091457A /* RecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE37F082574DD2B0091457A /* RecommendGameView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +76,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66C722A652F7A4B316DF072C /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7464A6DF781AB573083E208A /* Pods-SwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+		9044F01EFEC7E63495B19E46 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		BDDDA815256CF3A300D36C2D /* SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDDA818256CF3A300D36C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDDDA81A256CF3A300D36C2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +106,33 @@
 		BDE37E2E2570F8520091457A /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		BDE37E332570F8B20091457A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		BDE37E382570FDE50091457A /* UIApplicatipn-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplicatipn-Extension.swift"; sourceTree = "<group>"; };
+		BDE37E6F2574C6450091457A /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		BDE37E742574CBD90091457A /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		BDE37E792574CC2A0091457A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BDE37E7E2574CD7B0091457A /* BaseAnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAnchorViewController.swift; sourceTree = "<group>"; };
+		BDE37E832574CDC90091457A /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		BDE37E882574CE8D0091457A /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		BDE37E8D2574CEC80091457A /* AnchorGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorGroupModel.swift; sourceTree = "<group>"; };
+		BDE37E922574CEE70091457A /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		BDE37E972574CF890091457A /* HttpTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTools.swift; sourceTree = "<group>"; };
+		BDE37EA22574D50A0091457A /* CollectionNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		BDE37EA72574D51E0091457A /* CollectionNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		BDE37EAC2574D5460091457A /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		BDE37EB92574D6A20091457A /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		BDE37EBE2574D6AB0091457A /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		BDE37EC92574D9930091457A /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		BDE37ECE2574D9D00091457A /* CycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		BDE37ED32574DA800091457A /* NSDate-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		BDE37ED82574DAEB0091457A /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		BDE37EDD2574DAF20091457A /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		BDE37EE22574DB5F0091457A /* RecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
+		BDE37EE72574DB690091457A /* RecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
+		BDE37EEC2574DB850091457A /* CollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
+		BDE37EF12574DB8C0091457A /* CollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
+		BDE37EF92574DCED0091457A /* CollectionGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionGameCell.swift; sourceTree = "<group>"; };
+		BDE37EFE2574DCF30091457A /* CollectionGameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionGameCell.xib; sourceTree = "<group>"; };
+		BDE37F032574DD250091457A /* RecommendGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendGameView.swift; sourceTree = "<group>"; };
+		BDE37F082574DD2B0091457A /* RecommendGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendGameView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB4F0A2410705B713E69103 /* Pods_SwiftProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +168,8 @@
 				BDDDA82E256CF3A600D36C2D /* SwiftProjectTests */,
 				BDDDA839256CF3A600D36C2D /* SwiftProjectUITests */,
 				BDDDA816256CF3A300D36C2D /* Products */,
+				FDA68EF3C7DEDAA3662946FB /* Pods */,
+				D235FAE85AE6657C63C569A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				BDE37E332570F8B20091457A /* Common.swift */,
+				BDE37E972574CF890091457A /* HttpTools.swift */,
 				BDE37E252570E88A0091457A /* Extension */,
 			);
 			path = Tools;
@@ -234,6 +296,14 @@
 			isa = PBXGroup;
 			children = (
 				BDE37E292570EF9F0091457A /* PageTitleView.swift */,
+				BDE37E6F2574C6450091457A /* PageContentView.swift */,
+				BDE37EA72574D51E0091457A /* CollectionNormalCell.swift */,
+				BDE37EA22574D50A0091457A /* CollectionNormalCell.xib */,
+				BDE37EB92574D6A20091457A /* CollectionPrettyCell.swift */,
+				BDE37EBE2574D6AB0091457A /* CollectionPrettyCell.xib */,
+				BDE37EAC2574D5460091457A /* BaseCollectionViewCell.swift */,
+				BDE37ED82574DAEB0091457A /* CollectionHeaderView.swift */,
+				BDE37EDD2574DAF20091457A /* CollectionHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +311,7 @@
 		BDDDA89A256D112500D36C2D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BDE37E882574CE8D0091457A /* BaseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -248,6 +319,9 @@
 		BDDDA89B256D112500D36C2D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BDE37E832574CDC90091457A /* BaseModel.swift */,
+				BDE37E8D2574CEC80091457A /* AnchorGroupModel.swift */,
+				BDE37E922574CEE70091457A /* AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -257,6 +331,8 @@
 			children = (
 				BDDDA81E256CF3A300D36C2D /* Main.storyboard */,
 				BDDDA89D256D112500D36C2D /* MainViewController.swift */,
+				BDE37E792574CC2A0091457A /* BaseViewController.swift */,
+				BDE37E7E2574CD7B0091457A /* BaseAnchorViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -264,6 +340,7 @@
 		BDDDA8A2256D117900D36C2D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BDE37ECE2574D9D00091457A /* CycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,6 +348,7 @@
 		BDDDA8A3256D117900D36C2D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BDE37EC92574D9930091457A /* RecommendViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -278,6 +356,14 @@
 		BDDDA8A4256D117900D36C2D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BDE37EE22574DB5F0091457A /* RecommendCycleView.swift */,
+				BDE37EE72574DB690091457A /* RecommendCycleView.xib */,
+				BDE37EF12574DB8C0091457A /* CollectionCycleCell.swift */,
+				BDE37EEC2574DB850091457A /* CollectionCycleCell.xib */,
+				BDE37EF92574DCED0091457A /* CollectionGameCell.swift */,
+				BDE37EFE2574DCF30091457A /* CollectionGameCell.xib */,
+				BDE37F032574DD250091457A /* RecommendGameView.swift */,
+				BDE37F082574DD2B0091457A /* RecommendGameView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +373,7 @@
 			children = (
 				BDDDA855256CFEB100D36C2D /* Home.storyboard */,
 				BDDDA862256CFF2600D36C2D /* HomeViewController.swift */,
+				BDE37E742574CBD90091457A /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -387,8 +474,26 @@
 				BDE37E202570E86B0091457A /* UIBarButtonItem-Extension.swift */,
 				BDE37E2E2570F8520091457A /* UIColor-Extension.swift */,
 				BDE37E382570FDE50091457A /* UIApplicatipn-Extension.swift */,
+				BDE37ED32574DA800091457A /* NSDate-Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		D235FAE85AE6657C63C569A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66C722A652F7A4B316DF072C /* Pods_SwiftProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA68EF3C7DEDAA3662946FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9044F01EFEC7E63495B19E46 /* Pods-SwiftProject.debug.xcconfig */,
+				7464A6DF781AB573083E208A /* Pods-SwiftProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,9 +503,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDDDA83F256CF3A600D36C2D /* Build configuration list for PBXNativeTarget "SwiftProject" */;
 			buildPhases = (
+				5DC3406B8072776AA877DF44 /* [CP] Check Pods Manifest.lock */,
 				BDDDA811256CF3A300D36C2D /* Sources */,
 				BDDDA812256CF3A300D36C2D /* Frameworks */,
 				BDDDA813256CF3A300D36C2D /* Resources */,
+				963ACE63461D6BC57103F276 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -497,9 +604,16 @@
 				BDDDA872256D06C300D36C2D /* Follow.storyboard in Resources */,
 				BDDDA825256CF3A500D36C2D /* LaunchScreen.storyboard in Resources */,
 				BDDDA87C256D07D600D36C2D /* Live.storyboard in Resources */,
+				BDE37EDE2574DAF20091457A /* CollectionHeaderView.xib in Resources */,
 				BDDDA822256CF3A500D36C2D /* Assets.xcassets in Resources */,
+				BDE37F092574DD2B0091457A /* RecommendGameView.xib in Resources */,
+				BDE37EFF2574DCF30091457A /* CollectionGameCell.xib in Resources */,
 				BDDDA820256CF3A300D36C2D /* Main.storyboard in Resources */,
 				BDDDA88E256D08A300D36C2D /* Profile.storyboard in Resources */,
+				BDE37EE82574DB690091457A /* RecommendCycleView.xib in Resources */,
+				BDE37EED2574DB850091457A /* CollectionCycleCell.xib in Resources */,
+				BDE37EBF2574D6AB0091457A /* CollectionPrettyCell.xib in Resources */,
+				BDE37EA32574D50A0091457A /* CollectionNormalCell.xib in Resources */,
 				BDDDA856256CFEB100D36C2D /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,22 +634,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DC3406B8072776AA877DF44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963ACE63461D6BC57103F276 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDDDA811256CF3A300D36C2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BDDDA819256CF3A300D36C2D /* AppDelegate.swift in Sources */,
+				BDE37F042574DD250091457A /* RecommendGameView.swift in Sources */,
+				BDE37E8E2574CEC80091457A /* AnchorGroupModel.swift in Sources */,
 				BDE37E2F2570F8520091457A /* UIColor-Extension.swift in Sources */,
+				BDE37ECA2574D9930091457A /* RecommendViewModel.swift in Sources */,
 				BDE37E212570E86B0091457A /* UIBarButtonItem-Extension.swift in Sources */,
 				BDDDA877256D06EF00D36C2D /* FollowViewController.swift in Sources */,
 				BDE37E342570F8B20091457A /* Common.swift in Sources */,
+				BDE37EAD2574D5460091457A /* BaseCollectionViewCell.swift in Sources */,
+				BDE37EE32574DB5F0091457A /* RecommendCycleView.swift in Sources */,
+				BDE37E892574CE8D0091457A /* BaseViewModel.swift in Sources */,
+				BDE37E7A2574CC2A0091457A /* BaseViewController.swift in Sources */,
+				BDE37EFA2574DCED0091457A /* CollectionGameCell.swift in Sources */,
+				BDE37ED42574DA800091457A /* NSDate-Extension.swift in Sources */,
+				BDE37EBA2574D6A20091457A /* CollectionPrettyCell.swift in Sources */,
 				BDE37E392570FDE50091457A /* UIApplicatipn-Extension.swift in Sources */,
+				BDE37E982574CF890091457A /* HttpTools.swift in Sources */,
 				BDDDA81B256CF3A300D36C2D /* SceneDelegate.swift in Sources */,
 				BDDDA889256D089A00D36C2D /* ProfileViewController.swift in Sources */,
 				BDDDA863256CFF2600D36C2D /* HomeViewController.swift in Sources */,
+				BDE37E752574CBD90091457A /* RecommendViewController.swift in Sources */,
+				BDE37E842574CDC90091457A /* BaseModel.swift in Sources */,
 				BDE37E2A2570EF9F0091457A /* PageTitleView.swift in Sources */,
+				BDE37E702574C6450091457A /* PageContentView.swift in Sources */,
+				BDE37ECF2574D9D00091457A /* CycleModel.swift in Sources */,
+				BDE37E932574CEE70091457A /* AnchorModel.swift in Sources */,
 				BDDDA881256D083B00D36C2D /* LiveViewController.swift in Sources */,
+				BDE37E7F2574CD7B0091457A /* BaseAnchorViewController.swift in Sources */,
+				BDE37EF22574DB8C0091457A /* CollectionCycleCell.swift in Sources */,
+				BDE37ED92574DAEB0091457A /* CollectionHeaderView.swift in Sources */,
+				BDE37EA82574D51E0091457A /* CollectionNormalCell.swift in Sources */,
 				BDDDA89E256D112500D36C2D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -709,6 +885,7 @@
 		};
 		BDDDA840256CF3A600D36C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9044F01EFEC7E63495B19E46 /* Pods-SwiftProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -727,6 +904,7 @@
 		};
 		BDDDA841256CF3A600D36C2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7464A6DF781AB573083E208A /* Pods-SwiftProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

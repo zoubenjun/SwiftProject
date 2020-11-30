@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="DKh-lM-rMB" customClass="CollectionNormalCell" customModule="SwiftProject">
+            <rect key="frame" x="0.0" y="0.0" width="253" height="182"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="253" height="182"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="斗鱼直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KG-rW-7Nz">
+                        <rect key="frame" x="5" y="163" width="243" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="Gxj-m1-RvP">
+                        <rect key="frame" x="0.0" y="0.0" width="253" height="160"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Csr-M9-QHx">
+                        <rect key="frame" x="194" y="0.0" width="59" height="14"/>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="0.24919734590000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="5" maxY="0.0"/>
+                        <state key="normal" title="6666" image="viewerIcon"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsV-CC-Wbx">
+                        <rect key="frame" x="5" y="142" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="VQs-Zg-HFK"/>
+                            <constraint firstAttribute="height" constant="16" id="dFm-dR-qgH"/>
+                        </constraints>
+                        <state key="normal" image="Img_user"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="斗鱼直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXW-Bt-xtN">
+                        <rect key="frame" x="26" y="144" width="45" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Gxj-m1-RvP" firstAttribute="top" secondItem="DKh-lM-rMB" secondAttribute="top" id="2sQ-At-xV1"/>
+                <constraint firstAttribute="bottom" secondItem="Gxj-m1-RvP" secondAttribute="bottom" constant="22" id="Mca-jk-W73"/>
+                <constraint firstItem="Csr-M9-QHx" firstAttribute="top" secondItem="DKh-lM-rMB" secondAttribute="top" id="NdY-xl-IPv"/>
+                <constraint firstItem="7KG-rW-7Nz" firstAttribute="leading" secondItem="DKh-lM-rMB" secondAttribute="leading" constant="5" id="UV1-me-wI5"/>
+                <constraint firstAttribute="trailing" secondItem="7KG-rW-7Nz" secondAttribute="trailing" constant="5" id="XRI-bm-B2e"/>
+                <constraint firstItem="7KG-rW-7Nz" firstAttribute="top" secondItem="GsV-CC-Wbx" secondAttribute="bottom" constant="5" id="Y8H-wi-pSl"/>
+                <constraint firstItem="GsV-CC-Wbx" firstAttribute="leading" secondItem="DKh-lM-rMB" secondAttribute="leading" constant="5" id="afK-PS-gDn"/>
+                <constraint firstAttribute="trailing" secondItem="Gxj-m1-RvP" secondAttribute="trailing" id="dH1-7v-PT0"/>
+                <constraint firstItem="7KG-rW-7Nz" firstAttribute="top" secondItem="zXW-Bt-xtN" secondAttribute="bottom" constant="5" id="dxh-GF-2r5"/>
+                <constraint firstItem="zXW-Bt-xtN" firstAttribute="leading" secondItem="GsV-CC-Wbx" secondAttribute="trailing" constant="5" id="lBY-hX-10H"/>
+                <constraint firstAttribute="bottom" secondItem="7KG-rW-7Nz" secondAttribute="bottom" constant="5" id="mq3-Rl-05L"/>
+                <constraint firstAttribute="trailing" secondItem="Csr-M9-QHx" secondAttribute="trailing" id="ppB-ak-OZz"/>
+                <constraint firstItem="Gxj-m1-RvP" firstAttribute="leading" secondItem="DKh-lM-rMB" secondAttribute="leading" id="uuh-mh-w8n"/>
+            </constraints>
+            <size key="customSize" width="253" height="182"/>
+            <connections>
+                <outlet property="iconImageView" destination="Gxj-m1-RvP" id="lFi-cY-ulU"/>
+                <outlet property="nickNameLabel" destination="zXW-Bt-xtN" id="4Y3-RC-ejc"/>
+                <outlet property="onlineBtn" destination="Csr-M9-QHx" id="YaK-4U-oPZ"/>
+                <outlet property="roomNameLabel" destination="7KG-rW-7Nz" id="iRZ-zw-yw9"/>
+            </connections>
+            <point key="canvasLocation" x="332.5" y="294"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Img_default" width="172.5" height="103.5"/>
+        <image name="Img_user" width="16" height="16"/>
+        <image name="viewerIcon" width="10" height="8"/>
+    </resources>
+</document>
