@@ -24,8 +24,10 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
     }
-    
-    func setupUI() {
+}
+
+extension BaseViewController {
+    @objc func setupUI() {
         contentView?.isHidden = true
         view.addSubview(animImageView)
         animImageView.startAnimating()
@@ -34,7 +36,6 @@ class BaseViewController: UIViewController {
 }
 
 extension BaseViewController {
-    
     func loadDataFinished() {
         animImageView.stopAnimating()
         animImageView.isHidden = true

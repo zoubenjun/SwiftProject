@@ -47,14 +47,18 @@ class BaseAnchorViewController: BaseViewController {
         setupUI()
         loadData()
     }
-    
+}
+
+extension BaseAnchorViewController {
     override func setupUI() {
         contentView = collectionView
         view.addSubview(collectionView)
         super.setupUI()
     }
-    
-    func loadData() {
+}
+
+extension BaseAnchorViewController {
+    @objc func loadData() {
     }
 }
 

@@ -26,7 +26,9 @@ class RecommendViewController: BaseAnchorViewController {
         gameView.frame = CGRect(x: 0, y: -kGameViewH, width: kScreenW, height: kGameViewH)
         return gameView
     }()
+}
 
+extension RecommendViewController {
     override func setupUI() {
         super.setupUI()
         
@@ -35,7 +37,9 @@ class RecommendViewController: BaseAnchorViewController {
         //边距是两个额外的视图
         collectionView.contentInset = UIEdgeInsets(top: kCycleViewH+kGameViewH, left: 0, bottom: 0, right: 0)
     }
+}
 
+extension RecommendViewController {
     override func loadData() {
         baseVM = recommendViewModel
         //闭包对VC有强引用  VC对RecommendViewModel有强引用 RecommendViewModel没有对闭包有强引用 =>没有形成循环引用
@@ -58,7 +62,6 @@ class RecommendViewController: BaseAnchorViewController {
 //        self.loadDataFinished()
     }
 }
-
 extension RecommendViewController : UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if indexPath.section == 1{
